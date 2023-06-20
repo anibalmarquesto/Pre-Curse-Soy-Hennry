@@ -15,8 +15,10 @@ function tienenMismaLongitud(str1, str2) {
    // Retorna true si los dos strings tienen la misma longitud.
    // De lo contrario, retorna false.
    // Tu código:
-   if(str1, str2){
-      rreturn (str1 ===str2) ?true :false;
+   if(str1.length === str2.length) {
+      return true;
+   }else{
+      return false;
    }
 }
 
@@ -24,11 +26,11 @@ function menosQueNoventa(num) {
    // Retorna true si el argumento "num" es menor que noventa.
    // De lo contrario, retorna false.
    // Tu código:
-   if (num <90){
-return "es menor que noventa"
+   if (num < 90){
+return true;
 
    } else{
-      return "no se puede"
+      return false;
    }
 }
 
@@ -36,10 +38,9 @@ function mayorQueCincuenta(num) {
    // Retorna true si el argumento "num" es mayor que cincuenta.
    // De lo contrario, retorna false.
    // Tu código:
-   if(num >50){
-      return "es mayorque cincuenta"
-   } else{
-      "false"
+   if(num > 50){
+      return true;
+   } else{ return  false;
    }
 }
 
@@ -58,10 +59,9 @@ function esImpar(num) {
    // Retorna true si "num" es impar.
    // De lo contrario, retorna false.
    // Tu código:
-if(num % 3 == 0) {
+if(num % 3 == 1) {
    return true;
-}else {
-   false;
+}else { return false;
 }
 }
 
