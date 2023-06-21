@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Kablammo&family=Kodchasan:wght@200&family=Tourney:ital,wght@0,100;1,100;1,200&display=swap");
+
+.titulo {
+  font-family: Kablammo;
+  color: blue;
+}
+h2 {
+  color: brown;
+  font-family: Tilt Prism;
+}
+.boton {
+  width: 10rem;
+  height: 5ex;
+  background-color: gold;
+  border: 2px solid firebrick;
+  border-radius: 10px;
+  color: black;
+  cursor: pointer;
+}
+.boton:hover{
+    background-color: bisque;
+}
